@@ -4,4 +4,10 @@ h1, h2 { color: gray; }
 
 h1 { border-bottom: 1px solid black; }
 
-p { color: maroon; }    <!-- цвет текста в абзацах-->
+p.blueberry { color: blue; }
+
+p.cranberry { color: maroon; }
+
+p.greentea { color: green; }
+
+p.rapberry { color: purple; }
