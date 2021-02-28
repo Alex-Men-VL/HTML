@@ -45,6 +45,8 @@ h2 {
     text-align: center;
     
     background: url(images/cocktail.gif) repeat-x;
+    
+    float: right;
 }
            
 #elixirs h2 {
@@ -80,4 +82,17 @@ a:visited {
 
 a:hover {
     color: yellow;
+}
+
+#elixirs a:link {
+    color: #007e7e;
+}
+
+#elixirs a:visited {
+    color: #333;
+}
+
+#elixirs a:hover {
+    color: #0d5353;
+    background: #f88396;
 }
