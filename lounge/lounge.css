@@ -1,35 +1,68 @@
 body { 
-      font-family: Verdana, Helvetica, Arial, sans-serif; 
-      font-size: small;
-      line-height: 1.6em;
-     }
+    font-family: Verdana, Helvetica, Arial, sans-serif; 
+    font-size: small;
+    line-height: 1.6em;
+}
 
 h1, h2 { 
-        color: #007e7e;
-       }
+    color: #007e7e;
+}
 
 h1 { 
     font-size: 150%
-   }
+}
 
 h2 {
     font-size: 130%
-   }
+}
 
 #guarantee {
-            border-color: white;
-            border-width: 2px;
-            border-style: dashed;
-            background-color: #a7cece;
-            padding: 25px;
-            padding-left: 80px;
-            margin: 30px;
-            margin-right: 250px;
-            line-height: 1.9em;
-            font-style: oblique;
-            color: #444;
-            font-family: Georgia, 'Times New Roman', Times, serif; 
-            background-image: url(images/background.gif);
-            background-repeat: no-repeat;
-            background-position: top left;
-           }
+    border-color: white;
+    border-width: 2px;
+    border-style: dashed;
+    
+    background-color: #a7cece;
+    
+    padding: 25px;
+    padding-left: 80px;
+    
+    margin: 30px;
+    margin-right: 250px;
+    
+    line-height: 1.9em;
+    font-style: oblique;
+    color: #444;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#elixirs {
+    border-style: solid;
+    border-color: #007e7e;
+    border-width: thin;
+    width: 200px;
+    
+    line-height: 1;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+    margin-left: 20px;
+    
+    text-align: center;
+    
+    background-image: url(images/cocktail.gif);
+    background-repeat: repeat-x;
+}
+           
+#elixirs h2 {
+    color: black;
+}
+
+#elixirs h3 {
+    color: #d12c47;
+}
