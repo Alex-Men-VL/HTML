@@ -1,7 +1,5 @@
 body { 
-    font-family: Verdana, Helvetica, Arial, sans-serif; 
-    font-size: small;
-    line-height: 1.6em;
+    font: small/1.6em Verdana, Helvetica, Arial, sans-serif; 
 }
 
 h1, h2 { 
@@ -17,46 +15,36 @@ h2 {
 }
 
 #guarantee {
-    border-color: white;
-    border-width: 2px;
-    border-style: dashed;
-    
-    background-color: #a7cece;
+    border: white 2px dashed;
     
     padding: 25px;
     padding-left: 80px;
     
     margin: 30px;
     margin-right: 250px;
-    
+
     line-height: 1.9em;
     font-style: oblique;
     color: #444;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
-    background-image: url(images/background.gif);
-    background-repeat: no-repeat;
-    background-position: top left;
+    background: url(images/background.gif) no-repeat top left #a7cece; 
 }
 
 #elixirs {
-    border-style: solid;
-    border-color: #007e7e;
-    border-width: thin;
+    border: solid thin #007e7e;
+    
     width: 200px;
     
     line-height: 1;
     
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding: 0px, 20px, 20px, 20px;
     
     margin-left: 20px;
     
     text-align: center;
     
-    background-image: url(images/cocktail.gif);
-    background-repeat: repeat-x;
+    background: url(images/cocktail.gif) repeat-x;
 }
            
 #elixirs h2 {
@@ -65,4 +53,11 @@ h2 {
 
 #elixirs h3 {
     color: #d12c47;
+}
+
+#footer {
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
 }
