@@ -5,6 +5,12 @@ body {
   margin:           0px;
 }
 
+#allcontent {
+  width: 800px;
+  padding: 5px 0px;
+  background-color: #675c47;
+}
+
 #header {
   background-color: #675c47;
   margin:           10px;
