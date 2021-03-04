@@ -58,6 +58,10 @@ caption {
 	text-align: right;
 }
 
+/* tr:nth-child(2n+1) {
+	background-color: #fcba7a;
+} */
+
 .cellcolor {
 	background-color: #fcba7a;
 }
