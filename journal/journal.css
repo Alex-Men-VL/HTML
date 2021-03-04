@@ -1,6 +1,7 @@
 @font-face {
             font-family: 'Emblema One';
-            src: url("EmblemaOne-Regular.woff"),                 url("EmblemaOne-Regular.ttf");
+            src: url("EmblemaOne-Regular.woff"),
+                 url("EmblemaOne-Regular.ttf");
            }
 body { 
       font-family: Verdana, Geneva, Arial, sans-serif; 
@@ -25,3 +26,38 @@ h2 {
 blockquote {
             font-style: italic
            }
+
+table {
+	margin: 0px 20px;
+	border: thin solid black;
+	caption-side: bottom;
+	/* border-spacing: 0px; */
+	border-collapse: collapse;
+	/* text-align: center; */
+}
+
+td, th {
+	border: thin dotted gray;
+	padding: 5px;
+}
+
+th {
+	background-color: orange;
+}
+
+caption {
+	font-style: italic;
+	padding-top: 8px;	
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.cellcolor {
+	background-color: #fcba7a;
+}
