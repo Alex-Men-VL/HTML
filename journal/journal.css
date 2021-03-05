@@ -65,3 +65,19 @@ caption {
 .cellcolor {
 	background-color: #fcba7a;
 }
+
+#small {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#small th {
+	background-color: white;
+}
+
+li {
+	list-style-image: url(images/backpack.gif);
+	padding-top: 5px;
+	margin-left: 20px;
+}
